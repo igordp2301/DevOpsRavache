@@ -1,0 +1,7 @@
+services:
+  api:
+    build: .
+    image: hello-world-api:local
+    init: true
+    ports:
+      - "${PORT:-3000}:3000"

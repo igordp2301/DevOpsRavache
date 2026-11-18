@@ -1,4 +1,13 @@
 node_modules
-npm-debug.log
+.npm-cache
+npm-debug.log*
 .git
 .github
+.env
+.env.*
+coverage
+test
+README.md
+.vscode
+.nvmrc
+compose.yaml
